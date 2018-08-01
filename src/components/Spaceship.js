@@ -20,4 +20,11 @@ Spaceship.default.Props = {
   colors: ['black', 'red']
 };
 
+ReactDOM.render(
+  <Spaceship
+  name="Delorean"
+  />,
+  document.getElementById('root')
+);
+
 export default Spaceship;
